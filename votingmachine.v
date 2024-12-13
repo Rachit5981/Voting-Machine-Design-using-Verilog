@@ -152,9 +152,9 @@ module votingMachine(
   wire valid_vote_3;
   wire valid_vote_4;
   wire [7:0] cand1_vote_recvd;
-  wire [7:8] cand2_vote_recvd;
-  wire [7:8] cand3_vote_recvd;
-  wire [7:8] cand4_vote_recvd;
+  wire [7:0] cand2_vote_recvd;
+  wire [7:0] cand3_vote_recvd;
+  wire [7:0] cand4_vote_recvd;
   wire anyValidVote;
 
   assign anyValidVote = valid_vote_1 | valid_vote_2 | valid_vote_3 | valid_vote_4;
